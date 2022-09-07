@@ -65,6 +65,27 @@ header{
 }
 
 
+
+.red{
+    background-color: red;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    color: white;
+}
+
+.product{
+    position:relative
+}
+
+.bedge{
+    position:absolute;
+    top: 70%;
+}
+
+
     
 
     
