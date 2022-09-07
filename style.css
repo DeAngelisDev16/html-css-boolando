@@ -97,7 +97,26 @@ header{
     top: 75%;
 }
 
+/* #endmain-region */
 
+
+/* #footer-section */
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+.footer-container{
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* #endfooter-section */
     
 
     
