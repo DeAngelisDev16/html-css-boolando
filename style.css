@@ -5,3 +5,27 @@
 
 }
 
+header{
+    height: 50px;
+    background-color: orange;
+}
+
+.header-container{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    
+
+    
+}
+
+.logo{
+    width: 15%;
+    position: relative;
+    left: 30%;
+    
+}
+
