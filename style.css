@@ -6,14 +6,18 @@
 }
 /* #header-region */
 header{
-    height: 50px;
     background-color: orange;
-   
 }
+    
+    
+    
+
+   
 
 .header-container{
     width: 80%;
     margin: auto;
+    padding: 0.5rem;
     position: relative;
     top: 25%;
     
@@ -97,6 +101,31 @@ header{
     top: 75%;
 }
 
+.heart{
+   
+    position: absolute;
+    left: 67%;
+    top: 2%;
+    background-color: white;
+    padding: 0.5rem 0.5rem;
+}
+
+/* #:hover-region */
+
+.heart:hover{
+    color: red;
+}
+
+.overlay{
+    display: none;
+}
+
+.overlay:hover{
+    display: contents;
+}
+
+
+
 /* #endmain-region */
 
 
@@ -104,6 +133,9 @@ header{
 footer{
     height: 80px;
     background-color: black;
+    
+   
+   
 }
 
 .footer-container{
@@ -117,6 +149,8 @@ footer{
     
 }
 
+
+
 .footer-links  a, h4 {
     color: white;
     text-decoration: none;
@@ -127,6 +161,7 @@ footer{
     position:absolute;
     left: 80%;
 }
+
 
 
 /* #endfooter-section */
