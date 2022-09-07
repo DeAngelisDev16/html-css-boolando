@@ -111,14 +111,21 @@ footer{
     height: 80%;
     margin: auto;
     padding: 1rem;
-    
     display: flex;
     justify-content: space-between;
+    position: relative;
+    
 }
 
 .footer-links  a, h4 {
     color: white;
     text-decoration: none;
+}
+
+.icons{
+    color: white;
+    position:absolute;
+    left: 80%;
 }
 
 
