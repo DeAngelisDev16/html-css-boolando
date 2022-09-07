@@ -12,11 +12,12 @@ header{
 
 .header-container{
     width: 80%;
-    
     margin: auto;
     position: relative;
-    top: 25%
+    top: 25%;
+    
 }
+    
 
 .row{
    
@@ -37,6 +38,24 @@ header{
     left: 30%;
 }
 /* #endheader-region */
+
+.main-container{
+    width: 80%;
+    margin: 2rem auto;
+    background-color: aqua;
+    
+}
+
+.col-4{
+    width: calc(100% / 12 * 4);
+    background-color: blue;
+    text-align: center;
+    
+}
+
+.img-modelli{
+    width: 75%;
+}
     
 
     
