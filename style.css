@@ -13,19 +13,32 @@ header{
 .header-container{
     width: 80%;
     height: 80%;
+    margin: auto;
+}
+
+.row{
+   
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: auto;
+    
+}
+
+.header-links > a{
+    color: white;
+    text-decoration: none;
+}
+   
     
 
     
-}
 
 .logo{
     width: 15%;
     position: relative;
     left: 30%;
-    
 }
+    
+    
+   
+    
 
