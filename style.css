@@ -42,20 +42,29 @@ header{
 .main-container{
     width: 80%;
     margin: 2rem auto;
-    background-color: aqua;
     
 }
 
 .col-4{
     width: calc(100% / 12 * 4);
-    background-color: blue;
-    text-align: center;
     
 }
+    
+    
 
-.img-modelli{
+.img-modelli > img{
     width: 75%;
 }
+
+.price{
+    color:red
+}
+
+.discount{
+    text-decoration: line-through;
+}
+
+
     
 
     
