@@ -4,7 +4,7 @@
     box-sizing: border-box;
 
 }
-
+/* #header-region */
 header{
     height: 50px;
     background-color: orange;
@@ -12,8 +12,10 @@ header{
 
 .header-container{
     width: 80%;
-    height: 80%;
+    
     margin: auto;
+    position: relative;
+    top: 25%
 }
 
 .row{
@@ -29,15 +31,16 @@ header{
 }
    
     
-
-    
-
 .logo{
     width: 15%;
     position: relative;
     left: 30%;
 }
+/* #endheader-region */
     
+
+    
+
     
    
     
