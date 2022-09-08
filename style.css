@@ -7,6 +7,11 @@
 /* #header-region */
 header{
     background-color: orange;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
 }
     
     
@@ -44,11 +49,15 @@ header{
     position: relative;
     left: 28%;
 }
+
+a{
+    margin-right: 0.5rem
+}
 /* #endheader-region */
 
 .main-container{
     width: 80%;
-    margin: 2rem auto;
+    margin: 5rem auto;
     
 }
 
@@ -121,7 +130,11 @@ header{
 }
 
 .overlay:hover{
-    display: contents;
+    display: inline-block;
+}
+
+.visible:hover{
+    display: none;
 }
 
 
@@ -133,10 +146,11 @@ header{
 footer{
     height: 80px;
     background-color: black;
+}
+    
     
    
    
-}
 
 .footer-container{
     width: 80%;
@@ -145,7 +159,7 @@ footer{
     padding: 1rem;
     display: flex;
     justify-content: space-between;
-    position: relative;
+    
     
 }
 
@@ -158,8 +172,7 @@ footer{
 
 .icons{
     color: white;
-    position:absolute;
-    left: 80%;
+    
 }
 
 
